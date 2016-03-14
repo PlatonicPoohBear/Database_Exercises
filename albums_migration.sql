@@ -10,13 +10,11 @@
 
  	name VARCHAR(100) NOT NULL,
 
- 	release_date YEAR NOT NULL,
+ 	release_date YEAR(4) NOT NULL,
 
- 	sales FLOAT NOT NULL,
+ 	sales FLOAT(10,2) NOT NULL,
 
  	genre VARCHAR(200) NOT NULL,
-
- 	content TEXT NOT NULL,
     
     PRIMARY KEY (id)
  	)
