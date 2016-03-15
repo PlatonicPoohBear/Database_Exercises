@@ -10,7 +10,7 @@
 
  	name VARCHAR(100) NOT NULL,
 
- 	release_date YEAR(4) NOT NULL,
+ 	release_date DATE NOT NULL,
 
  	sales FLOAT(10,2) NOT NULL,
 
